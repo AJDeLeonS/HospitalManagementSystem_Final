@@ -5,19 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3437d03-51a6-494b-a853-871fd93e194a" name="Changes" comment="new version">
-      <change afterPath="$PROJECT_DIR$/HospitalApp/templates/UserView/appointment_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/HospitalManagementSystem.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/HospitalManagementSystem.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HospitalApp/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/HospitalApp/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HospitalApp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/HospitalApp/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HospitalApp/templates/AccountView/doctor_login.html" beforeDir="false" afterPath="$PROJECT_DIR$/HospitalApp/templates/AccountView/doctor_login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HospitalApp/templates/AccountView/doctor_signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/HospitalApp/templates/AccountView/doctor_signup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HospitalApp/templates/AccountView/patient_login.html" beforeDir="false" afterPath="$PROJECT_DIR$/HospitalApp/templates/AccountView/patient_login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HospitalApp/templates/AccountView/patient_signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/HospitalApp/templates/AccountView/patient_signup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HospitalApp/templates/DoctorsAccount/patient_dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/HospitalApp/templates/DoctorsAccount/patient_dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HospitalApp/templates/UserView/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/HospitalApp/templates/UserView/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HospitalApp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/HospitalApp/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HospitalApp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/HospitalApp/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,23 +50,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "django.template.preview.state": "SHOW_EDITOR",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/cunan/Desktop/Project1",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Django Server.HospitalManagementSystem.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
+    &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/cunan/Desktop/Project1&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\Coding\PyCharm 2024.1.4\Project\HospitalManagementSystem\HospitalApp\static" />
@@ -93,9 +86,10 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="HospitalManagementSystem.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="SDK_NAME" value="Python 3.12 (HospitalManagementSystem)" />
+      <option name="SDK_NAME" value="Python 3.12 (HospitalManagementSystem_update5)" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -115,8 +109,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PY-241.18034.82" />
-        <option value="bundled-python-sdk-975db3bf15a3-2767605e8bc2-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.18034.82" />
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-PY-242.21829.153" />
+        <option value="bundled-python-sdk-464836ebc622-b74155a9e76b-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.21829.153" />
       </set>
     </attachedChunks>
   </component>
@@ -133,6 +127,8 @@
       <workItem from="1726377127041" duration="12256000" />
       <workItem from="1726390499200" duration="2618000" />
       <workItem from="1726396141826" duration="5227000" />
+      <workItem from="1726403167068" duration="1209000" />
+      <workItem from="1726404510424" duration="283000" />
     </task>
     <servers />
   </component>

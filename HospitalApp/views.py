@@ -157,6 +157,8 @@ def book_appointment_or_signup(request):
                 appointment = form.save(commit=False)
                 appointment.user = request.user
                 appointment.save()
+
+                # Optionally, print the form data
                 doctor = form.cleaned_data['doctor']
                 appointment_date = form.cleaned_data['appointment_date']
                 appointment_time = form.cleaned_data['appointment_time']
@@ -169,7 +171,8 @@ def book_appointment_or_signup(request):
                 print(f"Subject: {subject}")
                 print(f"Description: {description}")
 
-                return redirect('appointment_success')
+                # Redirect to home after booking
+                return redirect('home')
         else:
             form = AppointmentForm()
 
