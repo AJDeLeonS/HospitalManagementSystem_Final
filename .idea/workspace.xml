@@ -4,24 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3437d03-51a6-494b-a853-871fd93e194a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/HospitalManagementSystem.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/HospitalManagementSystem.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="a3437d03-51a6-494b-a853-871fd93e194a" name="Changes" comment="new version">
+      <change afterPath="$PROJECT_DIR$/HospitalApp/templates/UserView/appointment_page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HospitalApp/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/HospitalApp/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HospitalApp/static/css/home_css.css" beforeDir="false" afterPath="$PROJECT_DIR$/HospitalApp/static/css/home_css.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HospitalApp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/HospitalApp/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HospitalApp/templates/AccountView/doctor_login.html" beforeDir="false" afterPath="$PROJECT_DIR$/HospitalApp/templates/AccountView/doctor_login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HospitalApp/templates/AccountView/doctor_signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/HospitalApp/templates/AccountView/doctor_signup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HospitalApp/templates/AccountView/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/HospitalApp/templates/AccountView/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HospitalApp/templates/AccountView/patient_login.html" beforeDir="false" afterPath="$PROJECT_DIR$/HospitalApp/templates/AccountView/patient_login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HospitalApp/templates/AccountView/patient_signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/HospitalApp/templates/AccountView/patient_signup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HospitalApp/templates/AccountView/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/HospitalApp/templates/AccountView/signup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HospitalApp/templates/DoctorsAccount/doctor_dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/HospitalApp/templates/DoctorsAccount/doctor_dashboard.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HospitalApp/templates/DoctorsAccount/patient_dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/HospitalApp/templates/DoctorsAccount/patient_dashboard.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HospitalApp/templates/UserView/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/HospitalApp/templates/UserView/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HospitalApp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/HospitalApp/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HospitalManagementSystem/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/HospitalManagementSystem/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HospitalManagementSystem/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/HospitalManagementSystem/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HospitalApp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/HospitalApp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,8 +47,8 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Jan-Raphael/HospitalManagementSystem.git&quot;,
-    &quot;accountId&quot;: &quot;10765694-2e10-456b-b7b7-226332b49659&quot;
+    &quot;url&quot;: &quot;https://github.com/Jan-Raphael/HospitalManagementSystem_update2.git&quot;,
+    &quot;accountId&quot;: &quot;a9df7a8c-ee5f-4837-af3f-4650faeea401&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -71,7 +67,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "django.template.preview.state": "SHOW_EDITOR",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "F:/Coding/PyCharm 2024.1.4/Project/HospitalManagementSystem",
+    "last_opened_file_path": "C:/Users/cunan/Desktop/Project1",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -119,8 +115,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-PY-242.21829.153" />
-        <option value="bundled-python-sdk-464836ebc622-b74155a9e76b-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.21829.153" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PY-241.18034.82" />
+        <option value="bundled-python-sdk-975db3bf15a3-2767605e8bc2-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.18034.82" />
       </set>
     </attachedChunks>
   </component>
@@ -134,10 +130,18 @@
       <updated>1726234326203</updated>
       <workItem from="1726234333140" duration="15492000" />
       <workItem from="1726375673093" duration="301000" />
+      <workItem from="1726377127041" duration="12256000" />
+      <workItem from="1726390499200" duration="2618000" />
+      <workItem from="1726396141826" duration="5227000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Commit" />
+    <MESSAGE value="new version" />
+    <option name="LAST_COMMIT_MESSAGE" value="new version" />
   </component>
 </project>

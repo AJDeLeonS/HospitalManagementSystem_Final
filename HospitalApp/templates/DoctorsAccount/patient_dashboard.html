@@ -4,27 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Patient Dashboard</title>
+    <!-- Load Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .navbar {
+            margin-bottom: 20px;
+        }
+        .footer {
+            background-color: #f1f1f1;
+            padding: 20px 0;
+            text-align: center;
+        }
+    </style>
+    {% load static %}
     <link rel="stylesheet" href="{% static 'css/styles.css' %}">
 </head>
 <body>
-    <header>
-        <h1>Patient Dashboard</h1>
-        <nav>
-            <ul>
-                <li><a href="{% url 'home' %}">Home</a></li>
-                <li><a href="{% url 'logout' %}">Logout</a></li>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Evergreen General Hospital</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'home' %}">Home</a>
+                </li>
+                <li class="nav-item">
+                    <!-- Logout button as a form -->
+                    <form action="{% url 'logout_view' %}" method="post" class="form-inline">
+                        {% csrf_token %}
+                        <button type="submit" class="btn btn-outline-danger">Logout</button>
+                    </form>
+                </li>
+                <!-- Add more navigation links here if needed -->
             </ul>
-        </nav>
-    </header>
-    <main>
-        <h2>Welcome, {{ user.patientaccount.user.username }}!</h2>
-        <p>Phone number: {{ user.patientaccount.phone_number }}</p>
-        <p>Address: {{ user.patientaccount.address }}</p>
-        
-        <!-- Add more content or functionality for patients here -->
-    </main>
-    <footer>
-        <p>&copy; 2024 Hospital Management System</p>
-    </footer>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="display-4">Welcome to Your Dashboard</h1>
+            <p class="lead">Here you can view your personal information and manage your account.</p>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8">
+                <h2>Welcome, {{ user.username }}!</h2>
+                <p><strong>Phone number:</strong> {{ user.patientaccount.phone_number }}</p>
+                <p><strong>Address:</strong> {{ user.patientaccount.address }}</p>
+
+                <!-- Add more content or functionality for patients here -->
+            </div>
+        </div>
+    </div>
+
+    <div class="footer mt-5">
+        <p>&copy; 2024 EverGreen General Hospital. All Rights Reserved.</p>
+    </div>
+
+    <!-- Load Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
